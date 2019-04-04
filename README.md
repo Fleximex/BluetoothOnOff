@@ -2,6 +2,7 @@
 
 # BluetoothOnOff 
 A simple Flutter plugin for turning on and off Bluetooth on Android devices.  
+<br>
   
 ## Getting Started  
 ### Basic
@@ -20,13 +21,15 @@ BluetoothOnOff.turnOffBluetooth;
 <br>
 
 ### More
-Since turnOnBluetooth and turnOffBluetooth both return a `Future<bool>` you can await them. So as shown in the[example](https://github.com/Fleximex/BluetoothOnOff/blob/master/example/lib/main.dart) you can use the bool for checking if the invocation was successful.
+Since turnOnBluetooth and turnOffBluetooth both return a `Future<bool>` you can await them. So as shown in the [example](https://github.com/Fleximex/BluetoothOnOff/blob/master/example/lib/main.dart) you can use the bool for checking if the invocation was successful.
 
 #### Await (inside an async function)
 ```dart
 bool success = false;
 success = await BluetoothOnOff.turnOnBluetooth;
 ```
+<br>
+
 ## Troubleshooting
 #### The plugin doesn't work on my AVD (Android Virtual Device)
 Because Bluetooth emulation is not supported by AVD you need to run your Flutter project on a physical device.
