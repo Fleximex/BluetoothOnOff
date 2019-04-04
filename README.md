@@ -1,6 +1,6 @@
-# bluetoothonoff
+# BluetoothOnOff
 
-Simple Flutter plugin for turning on and off Bluetooth.
+A simple Flutter plugin for turning on and off Bluetooth on Android devices.
 
 ## Getting Started
 

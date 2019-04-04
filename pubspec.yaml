@@ -1,18 +1,14 @@
 name: bluetoothonoff
-description: Simple Flutter plugin for turning on and off Bluetooth.
+description: A simple Flutter plugin for turning on and off Bluetooth on Android devices.
 version: 0.1.0
-author: Fleximex
-homepage:
+author: Fleximex <mjw_2@hotmail.com>
+homepage: https://github.com/Fleximex/BluetoothOnOff
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   flutter:
-    sdk: flutter
-
-dev_dependencies:
-  flutter_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the

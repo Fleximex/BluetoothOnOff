@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.1.0 - Initial Release
 
-* TODO: Describe initial release.
+* Functionality to turn on and off Bluetooth on Android devices
